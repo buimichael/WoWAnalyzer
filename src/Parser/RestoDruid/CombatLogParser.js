@@ -8,6 +8,7 @@ import Mana from 'Main/Mana';
 import CoreCombatLogParser from 'Parser/Core/CombatLogParser';
 import LowHealthHealing from 'Parser/Core/Modules/LowHealthHealing';
 import HealingDone from 'Parser/Core/Modules/HealingDone';
+import HealingPerMana from 'Parser/Core/Modules/HealingPerMana';
 
 import Ekowraith from './Modules/Legendaries/Ekowraith';
 import XonisCaress from './Modules/Legendaries/XonisCaress';
@@ -93,6 +94,7 @@ class CombatLogParser extends CoreCombatLogParser {
     cenarionWard: CenarionWard,
     naturesEssence: NaturesEssence,
     ironbark: Ironbark,
+    healingPerMana: HealingPerMana,
 
     // Legendaries:
     ekowraith: Ekowraith,
