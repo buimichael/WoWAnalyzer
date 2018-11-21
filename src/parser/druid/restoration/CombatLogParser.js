@@ -38,6 +38,7 @@ import TreeOfLife from './modules/talents/TreeOfLife';
 import Photosynthesis from './modules/talents/Photosynthesis';
 import Stonebark from './modules/talents/Stonebark';
 import Abundance from './modules/talents/Abundance';
+import Nerfs81 from './modules/talents/Nerfs81';
 
 import FungalEssence from './modules/items/azeritetraits/FungalEssence';
 import AutumnLeaves from './modules/items/azeritetraits/AutumnLeaves';
@@ -100,6 +101,7 @@ class CombatLogParser extends CoreCombatLogParser {
     flourish: Flourish,
     cenarionWard: CenarionWard,
     abundance: Abundance,
+    nerfs81: Nerfs81,
 
     // Items:
 
